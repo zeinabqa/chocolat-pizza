@@ -1,0 +1,161 @@
+body{
+    margin: 1px auto;
+    width: 100%;
+
+}
+*{
+    transition: all ease-in-out 0.2s;
+    color: rgb(136, 132, 132);
+
+}
+header{
+    padding: 10px 10px;
+}
+main{
+    padding: 10px 10px;
+}
+footer{
+    padding: 10px 10px;
+}
+.logo{
+    float: left;
+}
+.logoText{
+    display: inline-block;
+  
+}
+.logoText h1 , .logoText p{
+    margin: 0px 0px;
+}
+
+
+.logo img{
+    display: inline-block;
+}
+
+.link{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.choco , .list{
+    width: 100%;
+}
+
+.post{
+    float: left;
+    margin-top: 0px;
+
+}
+.print{
+    float: right;
+}
+#chocoPizza{
+    margin-bottom: 0px;
+}
+.content p{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.check{
+background-image: url(/img/list-bg.png);
+width:100%;
+height: 400px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 20px auto; 
+}
+
+.form1{
+float: left;
+margin-left:50px ;
+}
+
+.form1 label , .form1 input , .form2 label , .form2 input{
+margin-bottom: 30px;
+}
+
+
+
+.form2{
+    float: right;
+    margin-right: 70px;
+}
+
+form label {
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.ceo{
+    float: left;
+    width: 30%;
+}
+footer button{
+    float: right;
+    padding:10px 20px;
+    background-color: rgb(179, 82, 46);
+    color: white;
+}
+
+footer button:hover{
+    background-color:rgba(179, 81, 46, 0.712) ;
+cursor: pointer;
+}
+.logoText2{
+    display: inline-block;
+}
+
+.logoText2 h2 , .logoText2 p{
+    margin:17px 0px;
+}
+
+.last{
+    text-align: center;
+    font-weight: bold;
+}
+
+#hr{
+    margin: 30px auto;
+}
+
+hr { 
+    background: url(../img/small-logo.png) no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 18px;
+    border: 0;
+    position: relative;
+}
+hr:before,
+hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 2px;
+    top: 8px;
+}
+hr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+hr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
+}
